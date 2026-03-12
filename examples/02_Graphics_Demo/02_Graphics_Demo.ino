@@ -18,7 +18,7 @@ void setup() {
   oled.begin(0, false, false);
 
   // bitmap, x, y, width, height
-  // нарисовать картинку (1), на позиции 48 пикселей от левого края (2), 0 от верхнего края (3), размер 32x32 пикселей(4,5)
+  // draw icon (1), positioning 48 pixels from left border (2), 0 pixels from upper border (3), sized 32x32 pixels(4,5)
   oled.drawBitmap(epd_bitmap_32x32_skull, 48, 0, 32, 32); 
 
 }
