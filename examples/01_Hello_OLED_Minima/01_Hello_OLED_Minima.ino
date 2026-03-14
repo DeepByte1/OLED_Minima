@@ -1,7 +1,7 @@
 #include <OLED_Minima.h>
 
 OLED_Minima oled; // by default adress 0x3C
-
+// OLED_Minima oled(0x3C); // this is also possible!
 
 void setup() {
   // Parmeters: (Model, Mirror_X, Mirrir_Y)
@@ -15,7 +15,7 @@ void setup() {
   oled.println("HELLO!"); // println() will print the data, and then go to the new line.
   oled.print("VAL: "); // print() will simply print the data...
   oled.println(100); // ...allowing to continue from the same place
-  oled.println(F("Flash-string")); // supports different types including: strings ("Hello"), characters ('A'), numbers (123), Flash-strings (F("Hello")), and also an empty println() to simply go to the next line.
+  oled.println(F("Flash-string!")); // supports different types including: strings ("Hello"), characters ('A'), numbers (123), Flash-strings (F("Hello")), and also an empty println() to simply go to the next line.
 }
 
 void loop() {}
