@@ -9,7 +9,6 @@ Ultra Lightweight Arduino Library (1.7Kb Flash) For Controlling SSD1306 Display,
 
 ## Using:
 ```cpp
-#define USE_FONT_8X8 // use this to use 8x8 font, eating extra FLASH memory. comment this if you want to use lightweight 5x8 font.
 #include <OLED_Minima.h>
 OLED_Minima oled;
 
