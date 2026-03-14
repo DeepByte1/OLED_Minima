@@ -1,10 +1,10 @@
 # OLED_Minima
-Ultra Lightweight Arduino Library (1.7Kb Flash) For Controlling SSD1306 Display, With Everything From Text To Graphics
+Ultra Lightweight Arduino Library (2Kb Flash) For Controlling SSD1306 Display, With Everything From Text To Graphics
 
 ## Features:
-- **Flash:** ~1.7kB (3 times less than Adafruit).
+- **Flash:** ~2kB (3 times less than Adafruit).
 - **RAM:** almost 0 bytes (no buffer).
-- **Speed:** Draws characters momentally (8 bytes at once over 1024).
+- **Speed:** Draws characters momentally (5 bytes at once over 1024).
 - **Multifunctionality:** Anything from text to graphics!
 
 ## Using:
